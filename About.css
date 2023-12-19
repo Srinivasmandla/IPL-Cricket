@@ -1,0 +1,456 @@
+body {
+    border: 2px solid;
+    background: radial-gradient(rgb(190, 189, 189), rgb(57, 199, 234), rgb(10, 81, 143));
+}
+
+/* page Screen Sizes Adjects */
+.page {
+    border: 4px solid white;
+    /* height: auto; */
+    margin: 100px 100px;
+    padding: 5px;
+    background-color: whitesmoke;
+}
+
+@media (max-width:400px) {
+    .page {
+        border: none;
+        margin: 35px 3px;
+    }
+}
+
+@media (min-width:400px) and (max-width:667px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 100px 10px;
+    }
+}
+
+@media (min-width:667px) and (max-width:997px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 100px 60px;
+    }
+}
+
+@media (min-width:977px) and (max-width:1440px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 120px 100px;
+    }
+}
+
+/*1st- Navigation Bar Section  */
+.nav-item>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-item>a:hover {
+    color: rgb(249, 106, 54) !important;
+}
+
+/* 1st Content Latest Videos 
+            - header  */
+.schedule-header {
+    background-color: rgb(41, 40, 40);
+    height: auto;
+}
+
+.schedule-header span {
+    color: rgb(255, 115, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin-left: 6px;
+}
+
+
+/* 1st right side Content 
+                - Latest News */
+.right-content {
+    /* border-left: 10px solid whitesmoke; */
+    display: grid;
+    padding: 0px !important;
+}
+
+.right-content>div {
+    border-bottom: 1px dashed whitesmoke;
+    padding-left: 8px;
+}
+
+.latest-news {
+    background-color: rgb(255, 128, 0);
+}
+
+.latest-news>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    /* font-size: 20px; */
+}
+
+.news-lists {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.news-lists>a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.news-lists>a:hover {
+    color: rgb(255, 153, 0);
+}
+
+.news-lists>p {
+    margin: 0px;
+    font-family: arial;
+    font-size: 10px;
+    color: rgb(197, 195, 195);
+}
+
+@media (max-width:399px) {
+    .latest-news>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        /* font-size: 20px; */
+    }
+
+    .news-lists {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 9px;
+    }
+
+    .news-lists>a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .news-lists>a:hover {
+        color: rgb(255, 98, 0);
+    }
+
+    .news-lists>p {
+        margin: 0px;
+        font-family: arial;
+        font-size: 5px;
+        color: rgb(197, 195, 195);
+    }
+}
+
+@media (min-width:400px) and (max-width:960px) {
+    .latest-news>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        /* font-size: 20px; */
+    }
+
+    .news-lists {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+    .news-lists>a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .news-lists>p {
+        margin: 0px;
+        font-family: arial;
+        font-size: 10px;
+        color: rgb(197, 195, 195);
+    }
+}
+
+@media (min-width:960px) and (max-width:1440px) {
+    .latest-news>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .news-lists {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+    }
+
+    .news-lists>a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .news-lists>p {
+        margin: 0px;
+        font-family: arial;
+        font-size: 13px;
+        color: rgb(197, 195, 195);
+    }
+}
+
+/* 2nd Content in About Templates  */
+.about-paragraph-3 {
+    border: 3px solid;
+    border-top: none;
+}
+
+.about-paragraph-3 h3 {
+    color: rgb(11, 126, 192);
+    font-family: Impact;
+    font-weight: 100;
+    font-size: 23px;
+    word-spacing: 6px;
+}
+
+.about-paragraph-3 p {
+    color: rgb(118, 116, 116);
+    font-family: arial;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media (max-width:500px) {
+    .about-paragraph-3 h3 {
+        color: rgb(11, 126, 192);
+        font-family: Impact;
+        font-weight: 100;
+        font-size: 16px;
+        word-spacing: 3px;
+    }
+
+    .about-paragraph-3 p {
+        color: rgb(118, 116, 116);
+        font-family: arial;
+        font-weight: 600;
+        font-size: 10px;
+    }
+}
+
+@media (min-width:500px) and (max-width:980px) {
+    .about-paragraph-3 h3 {
+        color: rgb(11, 126, 192);
+        font-family: Impact;
+        font-weight: 100;
+        font-size: 20px;
+        word-spacing: 2px;
+    }
+
+    .about-paragraph-3 p {
+        color: rgb(118, 116, 116);
+        font-family: arial;
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+
+/* 2nd-Content Game Schedule 
+            - right Side Text  */
+.right-game-schedule>div {
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+
+}
+
+.game-schedule>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.game-lists a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.game-lists p {
+    font-family: arial;
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: rgb(160, 156, 156);
+}
+
+.game-lists-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+}
+
+@media (min-width:400px) and (max-width:870px) {
+    .game-lists a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .game-lists p {
+        font-family: arial;
+        font-weight: 300;
+        font-size: 11px;
+        margin-bottom: 0px;
+        color: rgb(160, 156, 156);
+    }
+}
+
+@media (min-width:870px) and (max-width:1440px) {
+    .game-lists a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .game-lists p {
+        font-family: arial;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 0px;
+        color: rgb(160, 156, 156);
+    }
+}
+
+/* 3rd Right side content 
+                        - Latest tweets */
+.right-latest-tweets {
+    padding: 0px !important;
+}
+
+.right-latest-tweets>div {
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+}
+
+.latest-tweets>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.tweets-list span {
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.tweets-list-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+}
+
+@media (min-width:400px) and (max-width:870px) {
+    .latest-tweets>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+    .tweets-list span {
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width:870px) and (max-width:1140px) {
+    .latest-tweets>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 21px;
+    }
+
+    .tweets-list span {
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 8px;
+    }
+}
+
+@media (min-width:1140px) and (max-width:1440px) {
+    .latest-tweets>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .tweets-list span {
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 12px;
+    }
+}
+
+/* 3rd Content Footer
+                                                     - End of the Titles */
+.footer {
+    margin: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 7px;
+    background-color: rgb(46, 45, 45);
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgb(0, 183, 255);
+
+}
+
+.footer div {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer a:hover {
+    color: rgb(255, 98, 0);
+}
+
+.footer p {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer span {
+    color: rgb(255, 115, 0);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer i {
+    color: rgb(154, 152, 152);
+}
+
+.footer i:hover {
+    color: rgb(245, 124, 49);
+}

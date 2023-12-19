@@ -1,0 +1,540 @@
+body {
+    border: 2px solid;
+    background: radial-gradient(rgb(190, 189, 189), rgb(57, 199, 234), rgb(10, 81, 143));
+}
+
+/* page Screen Sizes Adjects */
+.page {
+    /* border: 2px solid red; */
+    margin: 100px 100px;
+    padding: 2px;
+    background-color: whitesmoke;
+}
+
+@media (max-width:400px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 35px 3px;
+    }
+}
+
+@media (min-width:400px) and (max-width:667px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 100px 10px;
+    }
+}
+
+@media (min-width:667px) and (max-width:997px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 100px 60px;
+    }
+}
+
+@media (min-width:977px) and (max-width:1440px) {
+    .page {
+        /* border: 2px solid red; */
+        margin: 120px 100px;
+    }
+}
+
+/*1st- Navigation Bar Section  */
+.nav-item>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-item>a:hover {
+    color: rgb(249, 106, 54) !important;
+}
+
+/* 2nd-Page 
+           - 2nd-Content
+            */
+.page-content-1 {
+    border: 12px solid white;
+    height: 500px;
+    padding: 0px 10px;
+}
+
+.content-1 {
+    height: 28em;
+    overflow: hidden;
+
+}
+
+.champions-image {
+    /* background-color: rgb(23, 22, 22); */
+    background-image: url(https://i.ytimg.com/vi/lmlaVXQGbOE/maxresdefault.jpg);
+    background-size: 100% 100%;
+
+}
+
+.champions-text-1 {
+    /* background: rgb(26, 25, 25); */
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 20.25em;
+    overflow: hidden;
+}
+
+.champions-text-1>h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    color: rgb(240, 106, 58);
+    text-align: center;
+}
+
+.champions-text-1>p {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+}
+
+/* 1st right side Content 
+                - Latest News */
+.right-content {
+    border-left: 10px solid whitesmoke;
+    display: grid;
+    padding: 0px !important;
+}
+
+.right-content>div {
+    border-bottom: 1px dashed whitesmoke;
+    padding-left: 8px;
+}
+
+.latest-news {
+    background-color: rgb(255, 128, 0);
+}
+
+.latest-news>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    /* font-size: 20px; */
+}
+
+.news-lists {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.news-lists>a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.news-lists>p {
+    margin: 0px;
+    font-family: arial;
+    font-size: 10px;
+    color: rgb(197, 195, 195);
+}
+
+@media (max-width:399px) {
+    .latest-news>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        /* font-size: 20px; */
+    }
+
+    .news-lists {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 9px;
+    }
+
+    .news-lists>a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .news-lists>a:hover {
+        color: rgb(255, 98, 0);
+    }
+
+    .news-lists>p {
+        margin: 0px;
+        font-family: arial;
+        font-size: 5px;
+        color: rgb(197, 195, 195);
+    }
+}
+
+@media (min-width:400px) and (max-width:960px) {
+    .latest-news>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        /* font-size: 20px; */
+    }
+
+    .news-lists {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+    .news-lists>a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .news-lists>a:hover {
+        color: rgb(255, 98, 0);
+    }
+
+    .news-lists>p {
+        margin: 0px;
+        font-family: arial;
+        font-size: 10px;
+        color: rgb(197, 195, 195);
+    }
+}
+
+@media (min-width:960px) and (max-width:1440px) {
+    .latest-news>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .news-lists {
+        background-color: black;
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+    }
+
+    .news-lists>a {
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .news-lists>a:hover {
+        color: rgb(255, 98, 0);
+    }
+
+    .news-lists>p {
+        margin: 0px;
+        font-family: arial;
+        font-size: 13px;
+        color: rgb(197, 195, 195);
+    }
+}
+
+/* Page 2nd content 
+            - Latest Videos */
+.cards-row1 {
+    margin: 10px 10px;
+}
+
+
+.latest_videos-head {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.latest_videos-head h1 {
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+.latest_videos-head span {
+    padding-top: 20px;
+    text-align: end;
+}
+
+.latest_videos-head a {
+    color: rgb(255, 128, 0);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.content-2-cards {
+    column-gap: 8px;
+}
+
+.cards-content2 {
+    padding: 0px !important;
+    padding-left: 5px !important;
+    padding-top: 10px !important;
+    background-color: rgb(43, 42, 42);
+}
+
+.cards-content2>h5 {
+    font-weight: 900;
+    color: rgb(0, 213, 255);
+    font-size: 13.6px;
+    text-transform: uppercase;
+}
+
+.cards-content2>p {
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+/* 2nd-Content Game Schedule 
+            - right Side Text  */
+.right-game-schedule {
+    padding-left: 0px !important;
+}
+
+.right-game-schedule>div {
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+
+}
+
+.game-schedule>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.game-lists a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.game-lists p {
+    font-family: arial;
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 0px;
+    color: rgb(160, 156, 156);
+}
+
+.game-lists-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+}
+
+@media (min-width:400px) and (max-width:870px) {
+    .game-lists a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .game-lists p {
+        font-family: arial;
+        font-weight: 300;
+        font-size: 11px;
+        margin-bottom: 0px;
+        color: rgb(160, 156, 156);
+    }
+}
+
+@media (min-width:870px) and (max-width:1440px) {
+    .game-lists a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 19px;
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .game-lists p {
+        font-family: arial;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 0px;
+        color: rgb(160, 156, 156);
+    }
+}
+
+/* 3rd Content in Featured
+            - Latest Tweets */
+.cards-row2 {
+    margin: 10px 10px;
+}
+
+.featured-head {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.featured-head h1 {
+    font-family: fantasy;
+    font-weight: 500;
+}
+
+.featured-head span {
+    padding-top: 20px;
+    text-align: end;
+}
+
+.featured-head a {
+    color: rgb(255, 128, 0);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.content-3-cards {
+    column-gap: 8px;
+}
+
+.cards-content3 {
+    padding: 0px !important;
+    padding-left: 5px !important;
+    padding-top: 10px !important;
+}
+
+.cards-content3>h5 {
+    font-weight: 900;
+    color: rgb(47, 109, 255);
+    font-size: 13.6px;
+    text-transform: uppercase;
+}
+
+.cards-content3>p {
+    font-family: arial;
+    font-size: 12px;
+}
+
+/* Right side content 
+            - Latest tweets */
+.right-latest-tweets {
+    padding-left: 0px !important;
+}
+
+.right-latest-tweets>div {
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px dashed whitesmoke;
+
+}
+
+.latest-tweets>span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.tweets-list span {
+    color: whitesmoke;
+    font-family: arial;
+    font-size: 12px;
+}
+
+.tweets-list-end a {
+    color: rgb(241, 103, 53);
+    font-weight: 500;
+    text-align: end;
+}
+
+@media (min-width:400px) and (max-width:870px) {
+    .latest-tweets>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+    .tweets-list span {
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 8px;
+    }
+
+}
+
+@media (min-width:870px) and (max-width:1140px) {
+    .latest-tweets>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .tweets-list span {
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 8px;
+    }
+}
+
+@media (min-width:1140px) and (max-width:1440px) {
+    .latest-tweets>span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 25px;
+    }
+
+    .tweets-list span {
+        color: whitesmoke;
+        font-family: arial;
+        font-size: 12px;
+    }
+}
+
+/* 3rd Content Footer
+                 - End of the Titles */
+.footer {
+    margin: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 15px;
+    background-color: rgb(46, 45, 45);
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgb(0, 183, 255);
+
+}
+
+.footer div {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer a:hover {
+    color: rgb(255, 98, 0);
+}
+
+.footer p {
+    color: rgb(0, 183, 255);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer span {
+    color: rgb(255, 115, 0);
+    font-family: arial;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.footer i {
+    color: rgb(154, 152, 152);
+}
+
+.footer i:hover {
+    color: rgb(245, 124, 49);
+}
